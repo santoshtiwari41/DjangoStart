@@ -1,0 +1,30 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment variables and virtual environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Django-specific
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.migrations/
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
